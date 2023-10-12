@@ -52,28 +52,28 @@
         android:textColorHighlight="@color/colorAzulDark"
         android:textColorHint="@color/colorAzulDark"
         android:textColorLink="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLoggin"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
         app:layout_constraintEnd_toEndOf="@+id/editTexttEmail"
         app:layout_constraintStart_toStartOf="@+id/editTexttEmail"
         app:layout_constraintTop_toBottomOf="@+id/editTexttEmail"
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
-        android:id="@+id/buttonLoggin"
+        android:id="@+id/buttonLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/white"
         android:text="@string/btn_login"
         android:textColor="@color/colorAzul"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintBottom_toTopOf="@+id/textViewGoSignUp"
         app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextPassword"
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword"
         app:layout_constraintVertical_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewGoSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -82,9 +82,9 @@
         android:text="@string/text_create_account"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/buttonLoggin"
+        app:layout_constraintEnd_toEndOf="@+id/buttonLogin"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/buttonLoggin"
-        app:layout_constraintTop_toBottomOf="@+id/buttonLoggin"
+        app:layout_constraintStart_toStartOf="@+id/buttonLogin"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
         app:layout_constraintVertical_bias="0.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
