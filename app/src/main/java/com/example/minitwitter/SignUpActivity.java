@@ -20,12 +20,14 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sing_up);
 
+        //Oculta el  toolBar de la pantalla
+        getSupportActionBar().hide();
+
         btnSingUp = findViewById(R.id.buttonSignUp);
         txtLogin = findViewById(R.id.textViewLogin);
 
         btnSingUp.setOnClickListener(this);
         txtLogin.setOnClickListener(this);
-
 
     }
 

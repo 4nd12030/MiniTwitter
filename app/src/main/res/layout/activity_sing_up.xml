@@ -10,13 +10,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAzul"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-301dp">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:layout_marginStart="56dp"
+            android:layout_marginStart="55dp"
             android:layout_marginEnd="55dp"
             app:layout_constraintBottom_toTopOf="@+id/editTextUserName"
             app:layout_constraintEnd_toEndOf="parent"
